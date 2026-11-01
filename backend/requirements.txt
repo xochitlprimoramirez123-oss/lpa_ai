@@ -1,0 +1,20 @@
+# --- Framework Backend y Servidor ASGI ---
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.12
+
+# --- Validación de Esquemas y Configuración ---
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+
+# --- Procesamiento de Datos y Lectura de Excel (ETL) ---
+pandas>=2.2.3
+numpy>=2.1.0
+openpyxl>=3.1.5
+
+# --- Base de Datos Relacional (ORM) ---
+sqlalchemy>=2.0.36
+
+# --- Testing ---
+pytest>=8.3.0
+httpx>=0.27.2

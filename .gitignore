@@ -1,0 +1,28 @@
+# Entornos virtuales de Python
+venv/
+.venv/
+env/
+
+# Caché de bytecode de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Variables de entorno y secretos (credenciales de BD)
+.env
+*.env.local
+
+# Datos operativos sensibles de Aumovio (No subir Excels reales al repositorio remoto)
+data/raw/*.xlsx
+data/raw/*.xls
+!data/raw/.gitkeep
+
+# Bases de datos locales de desarrollo
+*.db
+*.sqlite3
+
+# Archivos de sistema e IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
